@@ -15,18 +15,18 @@
  * Date: 2/25/15
  * Time: 1:23 PM
  *
-
-
-
-	A Doreso API PHP client library
-	It copies functionality from official Python client pydoreso, https://github.com/doreso/pydoreso
-
-   For full API documentation, visit https://developer.doreso.com/.
-
-  Typical usage:
-    $doreso =  new Doreso('my api key');
-    $d = $doreso->song_identify_file('./test.mp3');
-    echo($d);
+ *
+ *
+ *
+ * A Doreso API PHP client library
+ * It copies functionality from official Python client pydoreso, https://github.com/doreso/pydoreso
+ *
+ *  For full API documentation, visit https://developer.doreso.com/.
+ *
+ * Typical usage:
+ *   $doreso =  new Doreso('my api key');
+ *   $d = $doreso->song_identify_file('./test.mp3');
+ *   echo($d);
 */
 
 	class Doreso
