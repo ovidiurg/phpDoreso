@@ -75,7 +75,7 @@
 
 			while(!feof($phandle))
 			{
-				$wav .= fread($phandle, 128);
+				$wav .= fread($phandle, 1024);
 			}
 
 			pclose($phandle);
